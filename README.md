@@ -1,6 +1,6 @@
 # Ruboty::Zoi
 
-TODO: Write a gem description
+A [Ruboty](https://github.com/r7kamura/ruboty) plugin for "Zoi" (a.k.a. "NEW GAME!")
 
 ## Installation
 
@@ -18,7 +18,26 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+> ruboty zoi
+https://pbs.twimg.com/media/Bsw1StjCQAA9NQ1.jpg:large
+> ruboty zoi list
+あきらめる, あせる, ありがとうございます, いけるきがする, おはようございまーす, かえる, がんばる, きたく, きゅうけいにする, ごはんにする, しんちょくだめです, つかれた, ねる, やった, わかった
+> ruboty zoi いけるきがする
+https://pbs.twimg.com/media/BswuNkICcAE4olR.jpg:large
+```
+
+## Acknowledgement
+
+I applicate 得能正太郎's [NEW GAME!](http://www.amazon.jp/o/ASIN/4832244140/makimotonetwo-22),
+[@ganbaru_zoi)](https://twitter.com/ganbaru_zoi),
+[zoi](http://zoi.herokuapp.com/) and [hubot-zoi](https://github.com/udzura/hubot-zoi).
+
+## Author
+[Shimei Makimoto](http://shimpei.makimoto.org)
+
+## License
+[MIT](http://makimoto.mit-license.org)
 
 ## Contributing
 
