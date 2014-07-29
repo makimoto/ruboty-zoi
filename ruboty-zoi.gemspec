@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ruboty::Zoi::VERSION
   spec.authors       = ["Shimpei Makimoto"]
   spec.email         = ["makimoto@tsuyabu.in"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A Ruboty plugin for "Zoi" (a.k.a. "NEW GAME!")}
+  spec.homepage      = "https://github.com/makimoto/ruboty-zoi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
