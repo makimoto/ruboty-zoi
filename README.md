@@ -30,11 +30,11 @@ https://pbs.twimg.com/media/BswuNkICcAE4olR.jpg:large
 ## Acknowledgement
 
 I applicate 得能正太郎's [NEW GAME!](http://www.amazon.jp/o/ASIN/4832244140/makimotonetwo-22),
-[@ganbaru_zoi)](https://twitter.com/ganbaru_zoi),
+[@ganbaru_zoi](https://twitter.com/ganbaru_zoi),
 [zoi](http://zoi.herokuapp.com/) and [hubot-zoi](https://github.com/udzura/hubot-zoi).
 
 ## Author
-[Shimei Makimoto](http://shimpei.makimoto.org)
+[Shimpei Makimoto](http://shimpei.makimoto.org)
 
 ## License
 [MIT](http://makimoto.mit-license.org)
