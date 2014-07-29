@@ -34,12 +34,13 @@ module Ruboty
       end
 
       def fetch_data
+        return @fetched_data if @fetched_data
         zoi_data = open(ZOI_DATA_URI).read
         zoi_data = zoi_data.
           match(/this.items = (.+?);/m)[1].
           gsub(/(word|image|src):/, "'\\1':").
           gsub("'", '"')
-        JSON.parse(zoi_data)
+        @fetched_data = JSON.parse(zoi_data)
       end
     end
   end
