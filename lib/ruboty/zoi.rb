@@ -35,7 +35,7 @@ module Ruboty
 
       def fetch_data
         return @fetched_data if @fetched_data
-        zoi_data = open(ZOI_DATA_URI).read
+        zoi_data = URI(ZOI_DATA_URI).read
         zoi_data = zoi_data.
           match(/this.items = (.+?);/m)[1].
           gsub(/(word|image|src):/, "'\\1':").
